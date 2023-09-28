@@ -1,0 +1,98 @@
+*{
+    margin:0 0;
+    padding:0 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F6F0D7;
+}
+
+hr{
+    border: 0;
+    height: 25px;
+    width: 100%;
+}
+
+/*Head*/
+
+h2{
+    font-size:40px;
+    padding-top:30px;
+    font-family: 'Caprasimo', cursive;
+    animation: changecolorfont 10s infinite ease-in-out ;
+    background-image:url("imgforcss/background1.jpg") ;
+    background-position: center;
+    padding-bottom:60px;
+    background-size:100%;
+    background-repeat:no-repeat;
+    height:300px;
+}
+
+@keyframes changecolorfont{
+    0%{
+        color:rgb(0, 0, 0);
+    }
+    25%{
+        color:#948647;
+    }
+    50%{
+        color:#453e20;
+    }
+    75%{
+        color:#bdaa57;
+    }
+    99%{
+        color:rgb(0, 0, 0);
+    }
+}
+
+/* MyName */
+
+.MyProfile{
+    margin-top:20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+/* MyPic */
+
+.allimg{
+    justify-content: space-around;
+    
+}
+
+.allimg img{
+    border: 10px solid #453e20;
+    margin-right:70px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+}
+
+.allimg video{
+    border: 10px solid #453e20;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+}
+
+/* MyInfo */
+
+table{
+    padding:5px 5px;
+    background-color: #fff6d0;
+    border:1px solid #fff6d0;
+    border-radius: 25px;
+    padding-bottom:15px;
+    margin-bottom: 25px;
+    box-shadow: 2px 5px 10px black;
+}
+
+tr{
+    border:1px solid #453e20;
+    padding:5px 5px;
+}
+
+td{
+    border-bottom:1px solid #453e20;
+    padding:5px 5px;
+    
+}

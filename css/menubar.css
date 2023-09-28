@@ -1,0 +1,42 @@
+/*Menu Bar*/
+
+.bar{
+    background-color:#948647;
+    flex-direction: column;
+    padding: 25px;
+    padding-bottom:20px;
+    position:fixed;
+    width: 100%;
+}
+
+.logo{
+    font-size:25px;
+    float:left;
+    color:#ffffff;
+    font-family: 'Caprasimo', cursive;
+}
+.menu{
+    display: flex;
+    float:right;
+}
+
+ul.menu li{
+    margin:0 30px;
+    margin-top:12px;
+    font-size:20px;
+    list-style: none;
+}
+
+ul.menu li a{
+    text-decoration: none;
+    color:#ffffff;
+    transition: .3s ease-in-out;
+    padding-bottom:15px;
+}
+
+ul.menu li a:hover{
+    border-bottom: 3px solid #ffffff;
+    border-radius: 20%;
+    padding-bottom:0px;
+    color:#626262;
+}
