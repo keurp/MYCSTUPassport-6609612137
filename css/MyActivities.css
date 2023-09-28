@@ -1,0 +1,29 @@
+*{
+    margin:0 0;
+    padding:0 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F6F0D7;
+}
+
+h1{
+    padding-top:150px;
+}
+
+.AllAc{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width:800px;
+    margin:auto auto;
+    margin-top:50px;
+}
+
+.Ac1{
+}
+
+img{
+    width: 200px;
+}
