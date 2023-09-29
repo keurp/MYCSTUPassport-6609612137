@@ -10,6 +10,7 @@ body{
 
 h1{
     padding-top:150px;
+    font-family: 'Caprasimo', cursive;
 }
 
 .AllAc{
@@ -19,11 +20,43 @@ h1{
     width:800px;
     margin:auto auto;
     margin-top:50px;
+    background-color:#f0e6c3;
+    padding : 30px 20px;
+    box-shadow: 1px 1px 10px;
 }
 
-.Ac1{
+
+.Ac1 img{
+    width:200px;
+    box-shadow: 2px 5px 10px black;
+    transition: .9s ease-in-out;
+    position:sticky;
+    border-radius: 20px;
+}
+.Ac2 img{
+    width:200px;
+    box-shadow: 2px 5px 10px black;
+    transition: .9s ease-in-out;
+    position:sticky;
+    border-radius: 20px;
+}
+.Ac3 img{
+    width:200px;
+    transition: .9s ease-in-out;
+    box-shadow: 2px 5px 10px black;
+    position:sticky;
+    
+    border-radius: 20px;
 }
 
-img{
-    width: 200px;
+.Ac1 img:hover{
+    width: 250px;
+}
+
+.Ac2 img:hover{
+    width: 250px;
+}
+
+.Ac3 img:hover{
+    width: 250px;
 }

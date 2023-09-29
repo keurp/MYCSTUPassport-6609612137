@@ -7,3 +7,45 @@
 body{
     background-color:#F6F0D7;
 }
+
+img{
+    width:200px;
+}
+
+.topic{
+    padding-top:150px;
+    font-family: 'Caprasimo', cursive;
+    justify-content: center;
+    margin:auto auto;
+    width:200px;
+    margin-bottom:30px;
+}
+
+.MyAdvisor{
+    display: flex;
+    margin: auto;
+    width:500px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom:40px;
+}
+
+.info1 {
+    background-color:rgb(226, 226, 186);
+    font-size:10px;
+    padding:15px;
+}
+
+.info1 li{
+    list-style: none;
+}
+
+.info2{
+    background-color:rgb(226, 226, 186);
+    font-size:10px;
+    padding:15px;
+}
+
+.info2 li{
+    list-style: none;
+}
