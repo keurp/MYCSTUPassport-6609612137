@@ -47,12 +47,7 @@ h2{
     }
 }
 
-/* MyName */
 
-.MyProfile{
-    margin-top:20px;
-    font-family: 'Noto Sans Thai', sans-serif;
-}
 
 /* MyPic */
 
@@ -76,23 +71,178 @@ h2{
 
 /* MyInfo */
 
-table{
+.MyProfile table{
     padding:5px 5px;
-    background-color: #fff6d0;
+    background-color: #f4edcf;
     border:1px solid #fff6d0;
     border-radius: 25px;
     padding-bottom:15px;
     margin-bottom: 25px;
     box-shadow: 2px 5px 10px black;
+    margin: auto;
+    width:50%;
 }
 
-tr{
+.MyProfile tr{
     border:1px solid #453e20;
     padding:5px 5px;
 }
 
-td{
+.MyProfile td{
     border-bottom:1px solid #453e20;
     padding:5px 5px;
     
+}
+
+/* Middle */
+
+.middle{
+    display:flex;
+    width: auto;
+    margin : auto;
+    padding-bottom:40px ;
+}
+
+.leftside{
+    float:left;
+    width:25%;
+    margin:auto;
+    background-color: #ede7cd;
+    margin-top:0px;
+    padding-top:20px;
+    padding-bottom:2.5%;
+}
+
+.leftside h4{
+    margin-left:25%;
+    font-size:20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    margin-bottom:30px;
+}
+
+.rightside{
+    float:right;
+    width:25%;
+    margin:auto;
+    margin-left:40px;
+    margin-top:0px;
+    padding-top:20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    background-color: #ede7cd;
+    padding-left:10px;
+    padding-bottom:5%;
+}
+
+.rightside h3{
+    font-size:25px;
+    margin-bottom:30px;
+    margin-left:25%;
+    
+}
+
+.rightside table{
+    padding:5px 5px;
+    background-color: #d6cea8;
+    border:1px solid #d6cea8;
+    border-radius: 10px;
+    padding-bottom:15px;
+    margin-bottom: 25px;
+    box-shadow: 2px 5px 10px black;
+    margin: auto;
+}
+
+.rightside tr{
+    padding:5px 5px;
+}
+
+.rightside td{
+    padding:5px 5px;
+}
+
+.Mata{
+    background-color: #ebe5ca;
+    transition: .5s ease-in-out;
+}
+
+.Maha{
+    background-color: #ebe5ca;
+    transition: .5s ease-in-out;
+}
+
+.Anu{
+    background-color: #ebe5ca;
+    transition: .5s ease-in-out;
+}
+
+.patom{
+    background-color:#ebe5ca;
+    transition: .5s ease-in-out;
+}
+
+.patom:hover{
+    background-color:#f4f2de;
+}
+
+.Anu:hover{
+    background-color:#f4f2de;
+}
+
+.Mata:hover{
+    background-color:#f4f2de;
+}
+
+.Maha:hover{
+    background-color:#f4f2de;
+}
+
+.patom img{
+    margin-left: 20px;
+}
+
+.Mata img{
+    margin-left: 20px;
+}
+
+.Anu img{
+    margin-left: 20px;
+}
+
+.Maha img{
+    margin-left: 20px;
+}
+
+.MyProfile{
+    padding-bottom:50px;
+    padding-top:20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    width:50%;
+    margin:auto;
+    background-color: #F6F0D7;
+}
+
+.MyProfile span{
+    margin: auto;
+    width:50%;
+}
+
+.bottom{
+    position: absolute;
+    margin-top:705px;
+    padding:20px 0px;
+    background-color: #948647;
+    left:0;
+    width:100%;
+}
+
+.contact{
+    display: flex;
+    width:50%;
+    margin:auto;
+}
+
+.contact li{
+    margin:0 30px;
+    margin-top:12px;
+    font-size:20px;
+    list-style: none;
 }
